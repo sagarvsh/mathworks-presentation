@@ -8,8 +8,8 @@ site_description: >-
   searchable, mobile-friendly, 40+ languages
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: sagarvsh/mathworks-presentation
+repo_url: https://github.com/sagarvsh/mathworks-presentation
 edit_uri: ""
 
 # Configuration
@@ -77,17 +77,15 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/gitter
-      link: https://gitter.im/squidfunk/mkdocs-material
+      link: https://github.com/sagarvsh
     - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+      link: https://hub.docker.com/u/sagarvs
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+      link: https://twitter.com/Sagar_V_S
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/squidfunk/
+      link: https://linkedin.com/in/sagarvs
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/squidfunk
+      link: https://instagram.com/sagarvs
 
 # Extensions
 markdown_extensions:
@@ -179,8 +177,3 @@ nav:
     - Getting started:
       - Installation: insiders/getting-started.md
       - Changelog: insiders/changelog.md
-
-# Google Analytics
-google_analytics:
-  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-  - auto
